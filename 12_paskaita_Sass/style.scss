@@ -1,0 +1,11 @@
+$primary-color: #F15A24;
+
+body {
+    background-color: red;
+    color: white;
+}
+
+p {
+    background-color: white;
+    color: $primary-color;
+}

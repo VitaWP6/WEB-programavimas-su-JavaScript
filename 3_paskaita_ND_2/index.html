@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Atsiliepimai</title>
+
+    <style>
+        .ratingForm {
+            background-color: aquamarine;
+            width: 50%;
+            margin: 50px;
+            margin-left: 140px;
+            padding-bottom: 20px;
+            border: 2px solid black;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .my-button {        
+            display: block;
+            margin: auto;
+        }
+
+        .nameInput, .emailInput, .ratingInput, .commentInput {
+            padding-left: 55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ratingForm">
+    <h1>Atsiliepimų forma</h1>
+    <div class="nameInput">
+        <label for="name">Vardas:</label>
+        <input type="text" id="name" required/>
+    </div>
+    <div class="emailInput">
+        <label for="email">El. paštas:</label>
+        <input type="email" id="email" required/>
+    </div>
+        <div class="ratingInput">
+            <label for="rating">Įvertinimas:</label>
+            <select name="rating" id="rating">
+                <option value="excellent">5 - Puikiai 🤩</option>
+                <option value="veryGood">4 - Gerai 😊</option>
+                <option value="good">3 - Gerai 🙂</option>
+                <option value="normal">2 - Normaliai 😐</option>
+                <option value="bad">1 - Blogai 🙁</option>
+                <option value="veryBad">0 - Labai blogai 😡</option>
+            </select>
+        </div>
+        <div class="commentInput">
+            <label for="comment">Komentarai:</label>
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+        <button type="submit" class="my-button">Pateikti</button>
+    </div>
+</body>
+</html>

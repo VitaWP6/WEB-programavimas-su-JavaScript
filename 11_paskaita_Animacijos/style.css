@@ -1,0 +1,48 @@
+.button-hoverMe {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-hoverMe:hover {
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+
+@keyframes red-blue {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes press {
+    50% {background-color: lightcoral;}
+    100% {background-color: red;}
+}
+
+.press-here {
+    background-color: lightcoral;
+    text-align: center;
+    animation: press 4s infinite alternate;
+}
+
+.turning-blue {
+    animation: red-blue 4s infinite;
+}
+
+.scale {
+    background-color: rgb(179, 60, 179);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: 0.1s;
+}
+
+.scale:active {
+    transform: scale(0.8);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Registracija</title>
+    <style>
+        h1 {
+            color: red;
+            text-transform: capitalize;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-color: rgb(142, 19, 19);
+        }
+
+        .my-button {
+            text-transform: uppercase;
+            background-color: red;
+            color: rgb(142, 19, 19);
+            border-radius: 40%;
+            padding: 5px;
+            margin-top: 20px;
+            margin-left: 90px;            
+        }
+
+        button:hover {
+            background-color: lightgreen;
+            color: green;
+        }
+
+        .nameInput, .surnameInput, .emailInput, .passwordInput {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            width: 40%;
+        }
+
+        .nameInput {
+            padding-bottom: 10px;
+            background-color: green;
+        }
+
+        .surnameInput {
+            background-color: lightgreen;
+        }
+
+        .emailInput {
+            background-color: rgb(204, 250, 204);
+        }
+
+        .passwordInput {
+            background-color: rgb(235, 246, 235);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Registracijos forma</h1>
+    <div class="nameInput">
+        <label for="name">Vardas:</label>
+        <input type="text" id="name" required/>
+    </div>
+    <div class="surnameInput">
+        <label for="surname">Pavardė:</label>
+        <input type="text" id="surname" required/>
+    </div>
+    <div class="emailInput">
+        <label for="email">El. paštas:</label>
+        <input type="email" id="email" required/>
+    </div>
+    <div class="passwordInput">
+        <label for="password">Slaptažodis</label>
+        <input type="password" id="password" required/>
+    </div>
+    <button type="submit" class="my-button">Registruotis</button>
+    
+</body>
+</html>

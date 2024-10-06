@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color: black;
+    color: #CCCCCC;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 40px;
+    font-size: 13px;   
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.header1Anchor {
+    width: 50%;
+    float: left;
+}
+
+.leftAnchor1 {
+    text-align: left;
+}
+
+.rightAnchor1 {
+    text-align: right;    
+}
+
+a {
+    padding: 10px;
+    margin: 10px;
+}
+
+.header1 a:hover {
+    color: white;
+    cursor: pointer;    
+}
+
+.header2 {
+    background-color: white;
+    height: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-family: Robota, sans-serif;
+    font-size: 17px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.header2Anchor {
+    width: 50%;
+    float: left;
+}
+
+.leftAnchor2 {
+    text-align: left;
+}
+
+.rightAnchor2 {
+    text-align: right;    
+}
+
+.send-shipment {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-family: Robota, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.post-logo {
+    background-color: white;
+    background-image: url("https://post.lt/themes/posttheme/images/logo.svg");
+    height: 46px;
+    width: 140px;
+    border: none;
+    color: transparent;
+}
+
+.hero {
+    background-image: url(https://post.lt/sites/default/files/2024-09/Hero%20baneris_Rugs%C4%97jis%20final_0.png);
+    height: 530px;
+    margin-left: -190px;
+}
+
+.hero-item {
+    width: 50%;
+    float: left;
+}
+
+.discount-card {
+    padding-top: 200px;
+    padding-right: 80px;
+}
+
+.disc-item-frame {
+    background-color: rgba(255, 255, 255, 0.586);
+    border-radius: 5px;
+    padding: 20px 1px 1px 34px;
+    width: 550px;
+    margin-left: 80px;
+    margin-top: -54px;
+    text-align: right;
+    font-size: 26px;
+    font-family: roboto, sans-serif;
+}
+
+.discount-item {
+    padding: 20px;
+    color: #333333;
+}
+
+.more {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+
+}
+
+i {
+  margin-right: 10px;
+}
+
+.shipment-tracking {
+  margin-left: 360px;
+  margin-top: 80px;
+  padding-top: 20px;
+  width: 330px;
+  background-color: white;
+  border-radius: 4px;
+  font-family: Robota, sans-serif;
+  font-size: 17px;
+  color: #333333;
+}
+
+h5 {
+  padding: 20px 20px 0px 20px;  
+}
+
+#shipmentNo {
+  padding: 10px;
+  margin: 20px 0px 20px 20px;
+}
+
+.arrow {
+  margin: 0px;
+  height: 48px;
+  width: 50px;
+  background-color: black;
+  color: white;
+}
+
+
+.declaration, .address, .sending {
+  border: 1px solid #cccccc;
+  margin: 0px;
+  height: 80px;
+  display: flex;
+}
+
+.sending {
+  background-color: red;
+  border-color: red;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: white;
+}
